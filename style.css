@@ -4,27 +4,27 @@ body {
     gap: 11px;
   }
   
-  .frame {
+  .box {
     border: solid 2px #1b6cee;
     display: flex;
     padding: 25px;
     gap: 15px;
   }
   
-  .frame div {
+  .box div {
     width: 50px;
     height: 50px;
     /*flex-basis: fit-content;*/
   }
   
-  #down {
+  #secondrow {
     background-color: #ca2a0e;
   }
   
-  #up div {
+  #firstrow div {
     background-color: #1b6cee;
   }
   
-  #down div {
+  #secondrow div {
     background-color: #8b24bb;
   }
